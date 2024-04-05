@@ -21,6 +21,9 @@ cargo run guide.pdf compressed [to get the compressed file]
 
 To use the `flate2` crate, you have to install the dependencies in the toml file.
 
+
+
+
 # LOGIC
 
 In the main.rs file, the file compression is achieved using the flate2 crate, which provides bindings to the miniz_oxide library for working with DEFLATE format compression (including gzip).
